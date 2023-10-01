@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Book Management System</title>
+    <link rel="stylesheet" href="01_book management.css">
+    
+      
+  </header>
+  <body>
+    <!-- Add new book form -->
+    <h1>Book Management System</h1>
+
+    <div class ="add-new-book-form">
+      <div class="input-group">
+        <label>Book Name :</label>
+        <input type="text" class="js-bookName-input" placeholder="Enter book name">
+          
+        <label>Author:</label>
+        <input type="text" class="js-author-input" placeholder="Enter Author">
+      </div>
+    
+      <div class="input-group">
+        <label>Year :</label>
+        <input type="text" class="js-year-input" placeholder="Enter year">
+    
+        <label>Price :</label>
+        <input type="text" class="js-price-input" placeholder="Enter Price">
+      </div>
+
+   
+      <button class='js-add-book-button css-addbook-button'   onclick="addbook()">Add Book</button>
+      </div>
+
+
+    <!-- Display all books -->
+    <h2>Your Books</h2>
+    <div 
+    class="js-Book-list">
+    </div>
+
+
+
+
+    <script src="01_book management.js"> </script>
+  </body>
+</html>

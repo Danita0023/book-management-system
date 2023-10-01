@@ -1,0 +1,96 @@
+body{
+  font-family:arial, san-serif;
+  text-align: center;
+  margin:20px;
+}
+
+/*[PART] add book form*/
+
+.add-new-book-form{
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(142, 142, 142, 0.2);
+}
+
+label, input, button {
+  margin: 3px;
+}
+
+.input-group {
+    margin-bottom: 10px; /* Adds space between each input group */
+}
+
+
+.css-addbook-button {
+  background-color: #0e4dbb;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+/*[PART] Show all book*/
+/* Add a card class for each book */
+.book-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  width: 200px;
+  height: 130px;
+  display: inline-block; /* Display books in a row */
+  vertical-align: top; /* Align books at the top */
+}
+
+.book-container:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-info {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.book-info span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
+.delete-book-button{
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  bottom: 5px;
+  right: 5px;
+}
+
+
+.edit-book-button {
+  background-color: #0ebb45;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  bottom: 5px;
+  right: 5px;
+}
+
